@@ -1,0 +1,183 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', Times, serif;
+    font-size: 15px;
+    margin: 0px;  
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    gap: 15px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;    
+    margin: 0px 0px 50px 0px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #3882F6;
+    color: white;    
+    padding: 5px 20px 5px 20px;
+    border-radius: 6px;
+    border-style: double;
+    border-color: #3882F6;
+}
+
+button:hover {
+    border-color: #0c49ac;
+}
+
+/* Sets padding indent found on each panel */
+.header, .footer, .section-1, .section-2, .section-3, .section-4{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+/* sets text up for dark background */
+.header, .footer, .section-1 {
+    background-color: #1F2937;
+    color: white;
+}
+
+.content {
+
+}
+
+.section-1 {
+    display: flex;
+    justify-content: stretch;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+}
+
+.info-panel {
+    padding-left: 150px;
+    padding-right: 150px;    
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.reference {
+    margin-top: 10px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.section-4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contrast-button {
+    border-color: white;
+    margin: auto 0px auto auto;
+}
+
+.colour-box {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 50px 100px 50px 100px;
+    display: flex;    
+    color: white;
+}
+
+.sign-up-stack {
+    flex-grow: 1;
+    flex-basis: 50%;
+    padding-right: 20%;
+}
+
+.placeholder-img {
+    flex-grow: 1;
+    flex-basis: 50%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.info-item {
+    flex-basis: 20%;
+}
+
+.image {
+    padding: 50px;
+    width: 35px;
+    height: 35px;
+    border-color: #3882F6;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header-title {
+    margin-right: auto;   
+    font-weight: bold; 
+    font-size: 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    padding: 20px;
+}
