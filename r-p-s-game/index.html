@@ -3,8 +3,39 @@
     <head >
         <meta charset="UTF-8">
         <title>RPS Game</title>
+        <link rel="stylesheet" href="./rps-styles.css">
     </head>
     <body>
+
+        <div>
+            <h1>Rock, Paper, Scissors Game</h1>
+        </div>
+
+        <div class="results-box">
+            <div class="scorecard">
+                <h2>
+                    Player Score
+                </h2>
+                <div class="score player">0</div>
+            </div>
+            <div class="scorecard">
+                <h2>
+                    Computer Score
+                </h2>
+                <div class="score computer">0</div>
+            </div>
+        </div>
+
+        <div class="play-box">
+            <div class="info-text">Who will win?</div>
+            <div class="options-container">
+                <button class="option">Rock 🪨</button>
+                <button class="option">Paper 📄</button>
+                <button class="option">Scissors ✂️</button>
+            </div>
+            <div class="matchup-display"></div>
+        </div>
+
         <script src="java.js"></script>
     </body>
 </html>
