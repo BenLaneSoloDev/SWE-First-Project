@@ -84,12 +84,19 @@ input:valid {
 }
 
 .grid {
-    background-color: aliceblue;
-    border: 0px solid rgb(48, 150, 197);
+    background-color: rgb(2, 48, 88);
+    border: 0px;
+    border-style: solid;
+    border-color: rgb(48, 150, 197);
     margin: 5%;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .footer {
     border-top: 2px solid rgb(170, 170, 170);
-    flex-shrink: 0;
 }
