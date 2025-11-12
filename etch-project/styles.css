@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(220, 239, 255);
+}
+
+h1 {    
+    margin: 0;
+    font-weight: 900;
+}
+
+h2 {
+    margin: 0;
+}
+
+button {
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px solid rgb(0, 131, 136);
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+button:hover {
+    border-color: rgb(0, 195, 202);
+    background-color: rgb(250, 242, 242);
+    color: black;
+}
+
+button:active {
+    border-color: rgb(15, 78, 80);
+    background-color: rgb(184, 184, 184);    
+    color: white;
+}
+
+input {
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgb(180, 31, 31);
+    border-style: solid;
+    padding: 5px;
+    margin: 2px;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(238, 184, 34);
+}
+
+input:valid {
+    border-color: rgb(34, 238, 112);
+}
+
+.header, .footer {
+    background-color: rgb(255, 255, 255);
+    height: 5%;
+    text-align: center;
+    padding: 5px;
+}
+
+.header {
+    border-bottom: 2px solid rgb(170, 170, 170);
+}
+
+.settings-box {
+    padding: 20px 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sizing-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-box {
+    text-align: center;
+    margin: 15px;
+}
+
+.grid {
+    background-color: aliceblue;
+    border: 0px solid rgb(48, 150, 197);
+    margin: 5%;
+}
+
+.footer {
+    border-top: 2px solid rgb(170, 170, 170);
+    flex-shrink: 0;
+}

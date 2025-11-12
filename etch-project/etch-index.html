@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html land="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Etch-a-Sketch Project</title>
+        <link rel="stylesheet" href="styles.css"> 
+    </head>
+    <body>
+
+        <div class="header">
+            <h1>ETCH-A-SKETCH</h1>
+        </div>
+
+        <div class="settings-box">
+            <h2>What size grid would you like?</h2>
+            <div class="sizing-box">
+                <div class="input-box">
+                    <div>Rows</div>
+                    <input type="number" inputmode="numeric" title="rows" min="1" max="100" required></input>
+                </div>
+                <div class="input-box">
+                    <div>Columns</div>
+                    <input type="number" inputmode="numeric" title="columns" min="1" max="100" required></input>
+                </div>
+            </div>
+            <button>Refresh Grid</button>
+        </div>
+
+        <div class="grid">
+
+        </div>
+
+        <div class="footer">
+            <div>Can you fill the whole board?</div>
+        </div>
+
+        <script defer src="java.js"></script>
+    </body>
+</html>
