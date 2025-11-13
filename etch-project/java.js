@@ -1,7 +1,7 @@
 // Function for generating a grid of size x * y
 const generateGrid = function(parent, rows, columns) {
     
-    const totalWidth = parent.offsetWidth;
+    const totalWidth = (window.innerWidth / 10) * 9;
     const percentPerSquare = ((totalWidth/columns) / window.innerWidth) * 100; // screen space width takes up
 
     // Setup element to be added to the screen
@@ -26,6 +26,8 @@ const generateGrid = function(parent, rows, columns) {
             //console.log(count++);
         }
     } 
+    
+    parent.style.width = (percentPerSquare * columns).toString() + "%";
 }
 
 // Function for removing all children from an element

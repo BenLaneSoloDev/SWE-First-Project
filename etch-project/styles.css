@@ -88,15 +88,18 @@ input:valid {
     border: 0px;
     border-style: solid;
     border-color: rgb(48, 150, 197);
-    margin: 5%;
-    padding: 0px;
+    margin: 5% auto;
+    width: fit-content;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    
 }
 
 .footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
     border-top: 2px solid rgb(170, 170, 170);
 }
