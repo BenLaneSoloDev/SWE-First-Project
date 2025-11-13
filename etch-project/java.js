@@ -22,6 +22,7 @@ const generateGrid = function(parent, rows, columns) {
     for (let i = 0; i < rows; i++) {
         for (let j = 0; j < columns; j++) {
             const nodeCache = gridSquare.cloneNode(true);
+            makeEtchElement(nodeCache);
             parent.appendChild(nodeCache);
             //console.log(count++);
         }
@@ -37,6 +38,13 @@ const clearGrid = function(parent) {
     while (parent.hasChildNodes()) {
     parent.removeChild(parent.firstChild);
     }
+}
+
+const makeEtchElement = function(element) {
+    element.style.opacity = "1.0";
+    element.addEventListener("mouseover", () => {
+        element.style.opacity = (element.style.opacity - 0.2).toString();
+    })
 }
 
 // Main Program
